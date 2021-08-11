@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var bank = prompt(`1.Airtime self\n 2.Airtime for others\n 3.Data\n 4.Transfer`);
+        bank = Number(bank)
+        if (bank == 1)
+        {
+            var amount = prompt(`Enter amount`)
+            var amount = prompt(`Enter your pin`)
+            alert(`Transaction successful`)
+        }
+        if (bank == 2)
+        {
+            var amount = prompt(`Enter amount`)
+            var phone = prompt(`Enter phone number`)
+            var amount = prompt(`Enter your pin`)
+            alert(`Transaction successful`)
+        }
+         if (bank == 3)
+        {
+            var amount = prompt(`1.self\n 2.3rd party`)
+            var phone = prompt(`select bundle\n 1.100MB 1day N100\n 2.350MB 7days N300\N 3.750MB 14days N500\n 4.1GB 1day N300\n 5.1.5GB 30days N1000\n 6.Next`)
+            if (phone == 6)
+            {
+              var next = prompt(`1.2GB 30days N1200\n 2. 3GB 30days N1500\n 3. 4.5GB 30days N2000\n 4. 6GB 30days N2500\n 5. Back\n 6. Next `)
+            }
+            if(next == 5)
+            {
+                prompt(`select bundle\n 1.100MB 1day N100\n 2.350MB 7days N300\N 3.750MB 14days N500\n 4.1GB 1day N300\n 5.1.5GB 30days N1000\n 6.Next`)
+            }
+            var amount = prompt(`Enter your pin`)
+            alert(`Transaction successful`)
+        }
+        if (bank == 4)
+        {
+            var amount = prompt(`Enter your account number`)
+            var amount = prompt(`Enter your amount`)
+            var amount = prompt(`Enter your pin`)
+            alert(`Transaction successful`)
+        }
+ 
+
+        
+
+
+
+
+
+
+
+
+
+
+
+    
+    </script>
+
+</body>
+</html>
